@@ -5,7 +5,7 @@
  * main - prints exactly "and that piece of art is useful"
  * - Gideon Obae, 2021-08-26",
  * followed by a new line, to the standard error.
- * Return 1 if (Success)
+ * Return: 1 if success.
  */
 int main(void)
 {
