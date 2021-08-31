@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include <stdio.h>
+#include <main.h>
 
 /**
  * print_to_98 - Prints all natural numbers from input to 98,
