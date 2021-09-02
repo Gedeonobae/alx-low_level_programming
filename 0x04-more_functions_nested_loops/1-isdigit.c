@@ -1,7 +1,7 @@
 
 /*
  * File: 1-isdigit.c
- * Auth: Brennan D Baraban
+ * Auth: Gideon Obae Gekonge
  */
 
 #include "main.h"
