@@ -1,8 +1,3 @@
-/*
- * File: 0-isupper.c
- * Auth: Gideon Obae Gekonge
- */
-
 #include "main.h"
 
 /**
