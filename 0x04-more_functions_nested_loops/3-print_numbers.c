@@ -1,6 +1,6 @@
 /*
  * File: 3-print_numbers.c
- * Auth: Brennan D Baraban
+ * Auth: Gideon Obae Gekonge
  */
 
 #include "main.h"
