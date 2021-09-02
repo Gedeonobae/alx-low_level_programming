@@ -1,6 +1,6 @@
 /*
  * File: 4-print_most_numbers.c
- * Auth: Brennan D Baraban
+ * Auth: Gideon Obae Gekonge
  */
 
 #include "main.h"
