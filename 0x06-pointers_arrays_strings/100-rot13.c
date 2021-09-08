@@ -1,4 +1,4 @@
-/i*
+/**
  * File: 8-rot13.c
  * Auth: Gedeon Obae Gekonge
  */
