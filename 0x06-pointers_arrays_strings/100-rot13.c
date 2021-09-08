@@ -1,26 +1,51 @@
-/*
- * File: 101-print_number.c
+/i*
+ * File: 8-rot13.c
  * Auth: Gedeon Obae Gekonge
  */
 
 #include "main.h"
 
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
+ * rot13 - Encodes a string using rot13.
+ * @str: The string to be encoded.
+ *
+ * Return: A pointer to the encoded string.
  */
-void print_number(int n)
+char *rot13(char *str)
 {
-	unsigned int num = n;
+	int indx1 = 0, indx2;
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+			     'G', 'H', 'I', 'J', 'K', 'L',
+			     'M', 'N', 'O', 'P', 'Q', 'R',
+			     'S', 'T', 'U', 'V', 'W', 'X',
+			     'Y', 'Z', 'a', 'b', 'c', 'd',
+			     'e', 'f', 'g', 'h', 'i', 'j',
+			     'k', 'l', 'm', 'n', 'o', 'p',
+			     'q', 'r', 's', 't', 'u', 'v',
+			     'w', 'x', 'y', 'z'};
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
+			     'T', 'U', 'V', 'W', 'X', 'Y',
+			     'Z', 'A', 'B', 'C', 'D', 'E',
+			     'F', 'G', 'H', 'I', 'J', 'K',
+			     'L', 'M', 'n', 'o', 'p', 'q',
+			     'r', 's', 't', 'u', 'v', 'w',
+			     'x', 'y', 'z', 'a', 'b', 'c',
+			     'd', 'e', 'f', 'g', 'h', 'i',
+			     'j', 'k', 'l', 'm'};
 
-	if (n < 0)
+	while (str[indx1])
 	{
-		_putchar('-');
-		num = -num;
+		for (indx2 = 0; indx2 < 52; indx2++)
+		{
+			if (str[indx1] == alphabet[indx2])
+			{
+				str[indx1] = rot13key[indx2];
+				break;
+			}
+		}
+
+		indx1++;
 	}
 
-	if ((num / 10) > 0)
-		print_number(num / 10);
-
-	_putchar((num % 10) + '0');
+	return (str);
 }
