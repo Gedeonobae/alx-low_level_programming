@@ -11,41 +11,31 @@
  *
  * Return: A pointer to the encoded string.
  */
-char *rot13(char *str)
-{
-	int indx1 = 0, indx2;
-	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
-			     'G', 'H', 'I', 'J', 'K', 'L',
-			     'M', 'N', 'O', 'P', 'Q', 'R',
-			     'S', 'T', 'U', 'V', 'W', 'X',
-			     'Y', 'Z', 'a', 'b', 'c', 'd',
-			     'e', 'f', 'g', 'h', 'i', 'j',
-			     'k', 'l', 'm', 'n', 'o', 'p',
-			     'q', 'r', 's', 't', 'u', 'v',
-			     'w', 'x', 'y', 'z'};
-	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
-			     'T', 'U', 'V', 'W', 'X', 'Y',
-			     'Z', 'A', 'B', 'C', 'D', 'E',
-			     'F', 'G', 'H', 'I', 'J', 'K',
-			     'L', 'M', 'n', 'o', 'p', 'q',
-			     'r', 's', 't', 'u', 'v', 'w',
-			     'x', 'y', 'z', 'a', 'b', 'c',
-			     'd', 'e', 'f', 'g', 'h', 'i',
-			     'j', 'k', 'l', 'm'};
+#include "main.h"
 
-	while (str[indx1])
+/**
+ * rot13 - encodes a string by rotating the characters 13 spaces.
+ * @s: pointer to input string.
+ * Return: Returns pointer encoded string.
+ */
+char *rot13(char *s)
+{
+	int i, j;
+	char r[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char boolean;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (indx2 = 0; indx2 < 52; indx2++)
+		boolean = 0;
+		for (j = 0; alpha[j] != '\0' && boolean == 0; j++)
 		{
-			if (str[indx1] == alphabet[indx2])
+			if (s[i] == alpha[j])
 			{
-				str[indx1] = rot13key[indx2];
-				break;
+				s[i] = r[j];
+				boolean = 1;
 			}
 		}
-
-		indx1++;
 	}
-
-	return (str);
+	return (s);
 }
