@@ -6,14 +6,6 @@
 #include "main.h"
 
 /**
- * rot13 - Encodes a string using rot13.
- * @str: The string to be encoded.
- *
- * Return: A pointer to the encoded string.
- */
-#include "main.h"
-
-/**
  * rot13 - encodes a string by rotating the characters 13 spaces.
  * @s: pointer to input string.
  * Return: Returns pointer encoded string.
