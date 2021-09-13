@@ -4,22 +4,23 @@
  */
 
 #include "main.h"
+
 /**
- * _memset - check the code for Holberton School students.
- * @s: parameter for the array
- * @b: parameter for the values in the array
- * @n: parameter for the number of times to print the new values
- * Return: Always 0.
+ * memset - Fills the first n bytes of the memory area
+ *          pointed to by @s with the constant byte @c.
+ * @s: A pointer to the memory area to be filled.
+ * @c: The character to fill the memory area with.
+ * @n: The number of bytes to be filled.
+ *
+ * Return: A pointer to the filled memory area @s.
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int c, size_t n)
 {
-	unsigned int a = 0;
+	unsigned int index;
+	unsigned char *memory = s, value = c;
 
-	while (a < n)
-	{
-		s[a] = b;
-		a++;
-	}
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (s);
+	return (memory);
 }
