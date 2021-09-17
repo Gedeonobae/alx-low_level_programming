@@ -1,4 +1,7 @@
+C - argc, argv
 
+In this project, I learned about utilizing arguments passed to C functions with argc and argv as well as how to use __attribute__((unused)) or void to compile functions with unused variables or parameters.
+Tasks page_with_curl
 
     0. It ain't what they call you, it's what you answer to
         0-whatsmyname.c: C program that prints its name, followed by a new line.
@@ -29,4 +32,5 @@
             Change can use an unlimited number of coins of values 25, 10, 5, 2 and 1 cent.
             If the number passed as the argument is negative, the program prints 0 followed by a new line.
             If the number of arguments passed to the program is not exactly one, it prints Error followed by a new line and returns 1.
+
 
