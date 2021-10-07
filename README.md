@@ -37,7 +37,7 @@ Author black_nib
 
     Gedeon Obae Gekonge <Gedeonobae>
 
-Acknowledgements pray
+Acknowledgements :pray:
 
 All work contained in this project was completed as part of the curriculum for ALX Software Engineering. ALX Software Engineering is a program-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit this link.
 
