@@ -1,6 +1,6 @@
 /*
  * File: 6-pop_listint.c
- * Auth: Gedeon 	Obae Gekonge
+ * Auth: Gedeon Obae Gekonge
  */
 
 #include "lists.h"
