@@ -33,14 +33,13 @@ working in the C language. The specific list of projects contained follows:
 ## Acknowledgements :pray:
 
 All work contained in this project was completed as part of the curriculum for
-Holberton School. Holberton School is a campus-based full-stack software
+ALX (Holberton) School. ALX (Holberton) School is a project-based full-stack software
 engineering program that prepares students for careers in the tech industry
 using project-based peer learning. For more information, visit
-/**[this link](https://www.holbertonschool.com/).
+/**[this link](https://www.alxafrica.com/).
 
-*<p align="center">
-  <img
-    src="http://www.holbertonschool.com/holberton-logo.png"
-    alt="Holberton School logo">
+<p align="center">
+  <img src="https://theme.zdassets.com/theme_assets/10239256/f69718478ae7ecaaae43d9f8aefd9638c313b55e.jpg"
+       alt="alx logo"
+  >
 </p>
-**/
