@@ -79,7 +79,7 @@ and functions written for the project.
   * [8-delete_dnodeint.c](./8-delete_dnodeint.c): C function that deletes the node at
   index `index` of a doubly-linked `dlistint_t` list.
   * The paramter `index` is the index of the node to delete - indices start at `0`.
-  * If the function fails - returns `-1`.
+  * If the function fails - returns `-1`. 
   * Otherwise - returns `1`.
 
 * **9. Crackme4**
