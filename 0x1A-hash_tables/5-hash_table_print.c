@@ -3,8 +3,8 @@
  * Auth: Gedeon Obae Gekonge 
 */
 
-#include "hash_tables.h"
 
+#include "hash_tables.h"
 /**
  * hash_table_print - Prints a hash table.
  * @ht: A pointer to the hash table to print.
