@@ -26,6 +26,8 @@ working in the C language. The specific list of projects contained follows:
 * [0x12. C - Singly linked lists](./0x11-singly_linked_lists)
 * [0x13. C - More singly linked lists](./0x12-more_singly_linked_lists)
 * [0x14. C - Bit manipulation](./0x13-bit_manipulation)
+
+
 ## Author :black_nib:
 
 * __Gedeon Obae Gekonge__ <[Gedeonobae](https://github.com/Gedeonobae)>
