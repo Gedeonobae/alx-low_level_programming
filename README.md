@@ -25,6 +25,7 @@ working in the C language. The specific list of projects contained follows:
 * [0x11. C - printf](https://github.com/Gedeonobae/printf/tree/master)
 * [0x12. C - Singly linked lists](./0x11-singly_linked_lists)
 * [0x13. C - More singly linked lists](./0x12-more_singly_linked_lists)
+
 * [0x14. C - Bit manipulation](./0x13-bit_manipulation)
 
 
