@@ -28,7 +28,6 @@ working in the C language. The specific list of projects contained follows:
 * [0x14. C - Bit manipulation](./0x13-bit_manipulation)
 
 ## Author :black_nib:
-
 * __Gedeon Obae Gekonge__ <[Gedeonobae](https://github.com/Gedeonobae)>
 
 ## Acknowledgements :pray:
