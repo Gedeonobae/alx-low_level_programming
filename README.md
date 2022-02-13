@@ -29,7 +29,6 @@ working in the C language. The specific list of projects contained follows:
 
 ## Author :black_nib:
 * __Gedeon Obae Gekonge__ <[Gedeonobae](https://github.com/Gedeonobae)>
-
 ## Acknowledgements :pray:
 All work contained in this project was completed as part of the curriculum for
 ALX (Holberton) School. ALX (Holberton) School is a project-based full-stack software
