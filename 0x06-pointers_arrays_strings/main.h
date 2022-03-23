@@ -3,7 +3,7 @@
 
 /**
  * File: holberton.h
- * Auth: Brennan D Baraban
+ * Auth: Gedeon Obae Gekonge
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
