@@ -4,6 +4,13 @@ This was my ALX  project on search algorithms. I implemented
 various types of search algorithms and stated the corresponding space/time
 complexities for each.
 
+## Resources
+
+### Read or watch:
+
+* <a href ="https://en.wikipedia.org/wiki/Search_algorithm"> Search algorithm  </a> <br>
+
+* <a href ="https://www.geeksforgeeks.org/g-fact-86/"> Space complexity (1)  </a> <br>
 ## Header File :file_folder:
 
 
