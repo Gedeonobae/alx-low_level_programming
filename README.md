@@ -28,7 +28,12 @@ working in the C language. The specific list of projects contained follows:
 * [0x15. C - File I/O](./0x15-file_io)
 * [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)
 * [0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
-* [0x1A. C - Hash tables](./0x1A-hash_tables)<br>
+* [0x1A. C - Hash tables](./0x1A-hash_tables)
+* [0x1A. C - Sorting algorithms & Big O](./0x1A-sorting_algorithms)
+* [0x1B. C - Makefiles](./0x1B-makefiles)
+* [0x1C. C - Binary trees](https://github.com/Gedeonobae/0x1C-binary_trees/tree/master)
+* [0x1D. C - Search Algorithms](./0x1D-search_algorithms)
+<br>
 
 ## Author :black_nib:
 * __Gedeon Obae Gekonge__ <[Gedeonobae](https://github.com/Gedeonobae)>
