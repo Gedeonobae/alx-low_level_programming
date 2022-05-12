@@ -35,6 +35,7 @@ working in the C language. The specific list of projects contained follows:
 * [0x1D. C - Search Algorithms](./0x1D-search_algorithms)
 
 ## Author :black_nib:
+
 * __Gedeon Obae Gekonge__ <[Gedeonobae](https://github.com/Gedeonobae)>
 ## Acknowledgements :pray:
 All work contained in this project was completed as part of the curriculum for
