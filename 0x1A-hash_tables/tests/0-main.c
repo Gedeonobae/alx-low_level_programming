@@ -5,7 +5,7 @@
 
 /**
  * main - check the code for
- *
+ *Author: Gedeon Obae Gekonge
  * Return: Always EXIT_SUCCESS.
  */
 int main(void)
