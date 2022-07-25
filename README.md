@@ -30,7 +30,7 @@ working in the C language. The specific list of projects contained follows:
 * [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)
 * [0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
 * [0x1A. C - Hash tables](./0x1A-hash_tables)
-* [0x1A. C - Sorting algorithms & Big O](./0x1A-sorting_algorithms)
+* [0x1A. C - Sorting algorithms & Big O](./0x1A-sorting_algorithms
 * [0x1B. C - Makefiles](./0x1B-makefiles)
 * [0x1C. C - Binary trees](https://github.com/Gedeonobae/0x1C-binary_trees/tree/master)
 * [0x1D. C - Search Algorithms](./0x1D-search_algorithms)
